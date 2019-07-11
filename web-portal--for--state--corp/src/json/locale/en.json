@@ -1,0 +1,362 @@
+{
+  "nav": {
+    "home": "Home",
+    "raim": "RAIM",
+    "raimAir": "RAIM Airport",
+    "raimRoute": "RAIM Route",
+    "raimRf": "RAIM Territory RF",
+    "gbas": "GBAS",
+    "report":  "Crew Report"
+  },
+  "home": {
+    "title": "Integrated automated system for collecting and communicating information on the state of GNSS to aviation users (CAS-SIDM).",
+    "text_1": "The purpose of CAS CIDM is to inform the users of the airspace about the system for monitoring the state of GNSS navigation service and its characteristics when flying in the airspace of the Russian Federation.",
+    "text_2": "Information on the availability of the RAIM function in the areas of aerodromes and on the ATS routes, on the status of local control and correction stations located at aerodromes, and the accuracy of signals for different stages of flight is available to users.",
+    "text_3": "The list and description of the elements of the global navigation satellite system (GNSS) providing navigation services in the airspace of the Russian Federation on the routes in the areas of aerodromes when carrying out inaccurate (NPA) and precise (GLS) approaches are presented in subsection ENR 4.1.4 «Global Navigation Satellite System (GNSS)» and subsections AD 2.19 «Radio navigation aids and landing equipment» of the respective aerodromes.",
+    "subtitle_1": "Warning about the limitation of liability to the user for the use of the information provided.",
+    "text_1_1": "The user is obliged to compensate for any damage arising from the use of the KIS/DB and the information contained therein, as well as from the interaction with any other equipment or software, whether provided by the Enterprise, the Developer or a third party. To the maximum extent permitted by the applicable laws of the Russian Federation, the company And the Developer, their contractors, suppliers, partners are not liable for any damages (including, without limitation, damages for loss of profits of the company, from interruption of economic activities, from loss of commercial information, loss of business reputation, from work stoppage, equipment failure or software failure or failure to work, from repair costs, from loss of time or other financial losses).), arising out of the use or inability to use the CIS/BD, the incompatibility of the CIS/BD with any hardware, software or use, even if the affected party has been advised of the possibility of such damages.",
+    "text_1_2": "In no event shall the Company and the Developer be liable to the User for any loss or damage on any cause of action, whether in contract or in tort, arising out of or in connection with the use of the CISG/BD. Technical errors in the operation of the CIS/DB arising in the process of using the System, with proper communication to the Enterprise will be considered and eliminated by the Developer, as will be reported to the User.",
+    "subtitle_2": "No implied or other warranties.",
+    "text_2_1": "KIS/DB is provided «as is», ie, generally without any warranties System. The company and the Developer make no promises, representations or warranties with respect to the CISG/BD, whether Express or implied, whether in accordance with law, common law, tradition, business practices or otherwise, with respect to or in relation to the program or its content or any other material provided to you under this agreement or otherwise.",
+    "text_2_2": "The user assumes all risks and responsibility for the selection of the CISG/BD to achieve the planned results, as well as for its installation, use and results obtained from the operation of the System. The enterprise and Developer make no warranty that the KIS/DB is error free, free from failures or malfunctions, or that it is compatible with any individual hardware or software.",
+    "text_2_3": "To the maximum extent permitted by applicable law, the Company and the Developer disclaim all warranties KIS/DB, whether Express or implied, including, without limitation, the warranties of conformity of the System to its purpose, warranties non-infringement third party rights, warranty, integration, satisfactory quality or suitability, the suitability of the program and the accompanying materials in written form for any specific purpose.",
+    "text_2_4": "The company and the Developer disclaim any liability for loss of data during the operation of the KIS/DB, arising from/or related to any reason not to transfer from the Company and the Developer to you accurate or complete information."
+  },
+  "raim": {
+    "title": "RAIM Forecast",
+    "subTitleAir": "RAIM Airport",
+    "subTitleRoute": "RAIM Route",
+    "subTitleRf": "RAIM Territory RF",
+    "textAir": "Allows you to evaluate the availability of the RAIM function for the selected aerodrome",
+    "textRoute": "Evaluation of the availability of the RAIM function on a given route",
+    "textRf": "This function allows you to assess the availability of RAIM in the airspace of the Russian Federation"
+  },
+  "raimAir": {
+    "title": "RAIM Airport",
+    "searchTitle": "Airport search in ARNAD database",
+    "icao": "ICAO",
+    "requestTitle": "Query data",
+    "date": "Date",
+    "time": "Time(UTC)",
+    "typeOperation": "Operation type",
+    "operation": [
+      {
+        "value": "terminal",
+        "text": "Terminal"
+      }
+    ],
+    "mask": "Elevation angle mask",
+    "typeConstellat": "Constellation type",
+    "constellation": [
+      {
+        "value": "gnss",
+        "text": "GNSS"
+      },
+      {
+        "value": "gps",
+        "text": "GPS"
+      },
+      {
+        "value": "glonass",
+        "text": "GLONASS"
+      }
+    ],
+    "intervalLabel": "Time Interval",
+    "interval": [
+      {
+        "value": 15,
+        "text": "±15 minutes"
+      },
+      {
+        "value": 30,
+        "text": "±30 minutes"
+      },
+      {
+        "value": 45,
+        "text": "±45 minutes"
+      }
+    ],
+    "getForecast": "Get a forecast",
+    "avalTitle": "RAIM Availability",
+    "success": "RAIM available",
+    "error": "RAIM not available",
+    "available": "available",
+    "notavailable": "not available",
+    "visibleTitle": "Visibility of satellites",
+    "monitoringTitle": "Monitoring data",
+    "monitorinHead": [ "Satellite", "Number", "Availability", "Status" ]
+  },
+  "raimRoute": {
+    "title": "RAIM Route",
+    "hidden_params": "Hidden options",
+    "show_params": "Show options",
+    "searchTitle": "Search points",
+    "icao": "ICAO",
+    "find": "Search...",
+    "clear": "Clear",
+    "airnavHead": [ "ICAO", "Type record", "Subtype record", "Latitude °", "Longitude °" ],
+    "routeTitle": "Route",
+    "date": "Date",
+    "time": "Time(UTC)",
+    "intervalLabel": "Time interval",
+    "interval": [
+      {
+        "value": 15,
+        "text": "±15 minutes"
+      },
+      {
+        "value": 30,
+        "text": "±30 minutes"
+      },
+      {
+        "value": 45,
+        "text": "±45 minutes"
+      }
+    ],
+    "typeConstellat": "Constellation type",
+    "constellation": [
+      {
+        "value": "gnss",
+        "text": "GNSS"
+      },
+      {
+        "value": "gps",
+        "text": "GPS"
+      },
+      {
+        "value": "glonass",
+        "text": "GLONASS"
+      }
+    ],
+    "operation": [
+      {
+        "value": "terminal",
+        "text": "Terminal"
+      },
+      {
+        "value": "router",
+        "text": "Router"
+      },
+      {
+        "value": "npa",
+        "text": "NPA"
+      }
+    ],
+    "build": "Build",
+    "save": "Save",
+    "load": "Download",
+    "routeHead": [ "Delete", "№", "Operation type", "Elevation angle mask", "Offset (in minutes)", "ICAO", "Type record", "Subtype record", "Latitude °", "Longitude °" ]
+  },
+  "raimRF": {
+    "title": "RAIM Territory RF",
+    "requestTitle": "Query data",
+    "date": "Date",
+    "time": "Time(UTC)",
+    "typeOperation": "Operation type",
+    "operation": [
+      {
+        "value": "terminal",
+        "text": "Terminal"
+      },
+      {
+        "value": "router",
+        "text": "Router"
+      },
+      {
+        "value": "npa",
+        "text": "NPA"
+      }
+    ],
+    "mask": "Elevation angle mask",
+    "intervalLabel": "Time interval",
+    "interval": [
+      {
+        "value": 15,
+        "text": "±15 minutes"
+      },
+      {
+        "value": 30,
+        "text": "±30 minutes"
+      },
+      {
+        "value": 45,
+        "text": "±45 minutes"
+      }
+    ],
+    "typeConstellat": "Constellation type",
+    "constellation": [
+      {
+        "value": "gnss",
+        "text": "GNSS"
+      },
+      {
+        "value": "gps",
+        "text": "GPS"
+      },
+      {
+        "value": "glonass",
+        "text": "GLONASS"
+      }
+    ],
+    "getForecast": "Get a forecast",
+    "monitoringTitle": "Monitoring data",
+    "available": "Available",
+    "notavailable": "Not available",
+    "monitorinHead": [ "Satellite", "Number", "Availability", "Status" ]
+  },
+  "gbas": {
+    "title_map": "GBAS Russian Federation",
+    "title_gnss": "Accuracy of GNSS in the area of monitoring",
+    "map": "Map",
+    "more": "Accuracy GNSS",
+    "changeAirTitle": "Airport choice",
+    "placeholder": "Enter name of the airport, or ICAO",
+    "gbasHead": [ "Airport", "ИКАО", "ICAO" ],
+    "stateLabel": "Status",
+    "state": [
+      "Airport",
+      "City",
+      "ID",
+      "Last update",
+      "Satellite GPS",
+      "Satellite GLONASS",
+      "Accuracy (off, В)",
+      "Accuracy (off, L)",
+      "Accuracy (off, Н)",
+      "Accuracy (diff, В)",
+      "Accuracy (diff, L)",
+      "Accuracy (diff, Н)"
+    ],
+    "diffTitle": "Differential mode",
+    "terminal": "Terminal",
+    "router": "Router",
+    "autTitle": "Offline mode",
+    "glonass": "GLONASS",
+    "visibleTitle": "Visibility of satellites"
+  },
+  "agreement": {
+    "title": "Agreement",
+    "subtitle": "You must accept the terms to log in",
+    "text_p_1": "The user agrees that the Rightholder of this computer information system/database (hereinafter - KIS/BD, System, Program) is FSUE «state ATM Corporation» (hereinafter – the Company), with the authorship of FSUE «state ATM Corporation» and the developer of KIS/BD LLC «NPPF Spectrum» (hereinafter – Developer), used algorithms, applied ideas, documentation and other related information contained in the KIS/BD, are intellectual property and/or trade secrets of the Company and the Developer, and are protected in accordance with the civil and criminal legislation of the Russian Federation. The user's use of this KIS/BD does not give Him any rights to intellectual property in the KIS/BD and the acquisition of any rights to it, except those specifically provided in this Agreement.",
+    "text_p_2": "Except in those cases where in this Agreement otherwise specified, the User has no right to transfer and assign any of the rights granted to it under this Agreement or any related obligation.",
+    "text_p_3": "The user has no right to carry out any unauthorized access or use of the KIS/BD, including but not limited to the following:",
+    "text_ul": [
+      "allow the use of KIS/BD by persons not entitled to such use;",
+      "disassemble (analyze and investigate the program code);",
+      "decompile (convert program code into source code), adapt and modify  KIS/BD;",
+      "perform any other unauthorized actions regarding the KIS/BD, including its modification, translation, engineering, redesign, violating Russian and international norms on copyright and related rights when using the KIS/BD."
+    ],
+    "text_p_4": "The user agrees that his actions that have led or may lead to technical failures in the operation of the CIS/database are the basis for bringing him to responsibility in accordance with the legislation of the Russian Federation, and the User is obliged to reimburse the costs of restoring the normal operation of the KIS/BD.",
+    "text_p_5": "The user agrees that the use of the KIS/BD will be monitored by the Enterprise and the Developer for the proper use of the System. In this regard, the further use of the KIS/BD implies the user's consent to monitoring the use of the Program and the terms of its use. Otherwise, in case of disagreement with the terms of the Agreement, the User is obliged to stop using the KIS/BD and «log out».",
+    "accept": "ACCEPT"
+  },
+  "report": {
+    "title": "Form of the report of the flight crew of anomalies at GNSS service",
+    "name": "Full name",
+    "nameplace": "Ivanov Ivan Ivanovich",
+    "phone": "Phone",
+    "email": "Email",
+    "date": "Date event",
+    "time": "Time event",
+    "duration": "Duration (min.)",
+    "eventPoint": "Place event",
+    "eventPointPlace": "Specify in any possible way",
+    "eventPointSub": "Azimuth, distance from the nearest airport, RNS, waypoint, latitude / longitude",
+    "echelon": "Echelon / Altitude/Roll",
+    "flight": "Flight number",
+    "aircraftType": "Type aircraft",
+    "boardNumber": "Side number",
+    "isPortableReceiver": "Type NAP(PFP)",
+    "portableReceiver": [
+      {
+        "value": "portable",
+        "text": "Portable"
+      },
+      {
+        "value": "staff",
+        "text": "Staff"
+      }
+    ],
+    "receiverModel": "Model NAP",
+    "isGpsOnly": "GPS/GPS+GLONASS",
+    "gpsOnly": [
+      {
+        "value": "gps",
+        "text": "GPS"
+      },
+      {
+        "value": "gps-glonass",
+        "text": "GPS+GLONASS"
+      }
+    ],
+    "isAlarmRAIM": "Alarm RAIM",
+    "alarmRAIM": [
+      {
+        "value": "true",
+        "text": "Activated"
+      },
+      {
+        "value": "false",
+        "text": "Off"
+      }
+    ],
+    "isGLS": "Presence GLS",
+    "GLS": [
+      {
+        "value": "true",
+        "text": "Yes"
+      },
+      {
+        "value": "false",
+        "text": "No"
+      }
+    ],
+    "isAlarmGLS": "GLS failure alarm",
+    "alarmGLS": [
+      {
+        "value": "true",
+        "text": "Activated"
+      },
+      {
+        "value": "false",
+        "text": "Off"
+      }
+    ],
+    "sattelites": "Number of visible satellites",
+    "characterFailure": "The nature of the failure",
+    "characterType": [
+      {
+        "value": "Complete loss of GPS signal",
+        "text": "Complete loss of GPS signal"
+      },
+      {
+        "value": "Complete loss of GLONASS/GPS signal",
+        "text": "Complete loss of GLONASS/GPS signal"
+      },
+      {
+        "value": "Jump coordinates of the aircraft GPS signal",
+        "text": "Jump coordinates of the aircraft GPS signal"
+      },
+      {
+        "value": "Jump coordinates of the aircraft GLONASS/GPS signal",
+        "text": "Jump coordinates of the aircraft GLONASS/GPS signal"
+      },
+      {
+        "value": "Slow departure of aircraft coordinates by GPS signal",
+        "text": "Slow departure of aircraft coordinates by GPS signal"
+      },
+      {
+        "value": "Slow departure of aircraft coordinates by GLONASS/GPS signal",
+        "text": "Slow departure of aircraft coordinates by GLONASS/GPS signal"
+      },
+      {
+        "value": "Other",
+        "text": "Other"
+      }
+    ],
+    "comment": "Comment",
+    "send": "Send",
+    "saveReport": "Saved Report"
+  }
+}
+  

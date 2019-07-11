@@ -1,0 +1,7 @@
+[
+    {"FileRecordNo":"26777","IcaoIdent":"UUEE","RecordSubType":"AIRPORT","SpecialIdent":"","RecordType":"PA","Latitude":"55.9725","Longitude":"37.4131"},
+    {"FileRecordNo":"26865","IcaoIdent":"UUEE","RecordSubType":"GLIDE","SpecialIdent":"","RecordType":"PI","Latitude":"55.9762","Longitude":"37.4387"},
+    {"FileRecordNo":"26866","IcaoIdent":"UUEE","RecordSubType":"GLIDE","SpecialIdent":"","RecordType":"PI","Latitude":"55.9735","Longitude":"37.4389"},
+    {"FileRecordNo":"26867","IcaoIdent":"UUEE","RecordSubType":"GLIDE","SpecialIdent":"","RecordType":"PI","Latitude":"55.9690","Longitude":"37.3907"},
+    {"FileRecordNo":"26868","IcaoIdent":"UUEE","RecordSubType":"GLIDE","SpecialIdent":"","RecordType":"PI","Latitude":"55.9664","Longitude":"37.3910"}
+]

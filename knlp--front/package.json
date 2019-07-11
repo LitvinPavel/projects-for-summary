@@ -1,0 +1,41 @@
+{
+  "name": "rnav-new",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode staging_dev",
+    "build": "vue-cli-service build --mode staging_prod",
+    "dev-build": "vue-cli-service build --watch --mode development",
+    "lint": "vue-cli-service lint",
+    "json": "json-server --watch server/airport.json"
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.1.0",
+    "@mdi/font": "^3.3.92",
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.3",
+    "roboto-fontface": "*",
+    "sortablejs": "^1.8.1",
+    "vue": "^2.5.22",
+    "vue-axios": "^2.1.4",
+    "vue-chartjs": "^3.4.0",
+    "vue-json-csv": "^1.1.0",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.4.2",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.1",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "eslint-plugin-vue": "^5.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-vuetify": "^0.4.6",
+    "vue-template-compiler": "^2.5.22",
+    "vuetify-loader": "^1.1.1"
+  }
+}
